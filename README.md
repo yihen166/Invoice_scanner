@@ -1,4 +1,4 @@
-# Document Intelligence Agent
+# Invoices Intelligence Agent
 
 An AI agent that takes an uploaded invoice/receipt (PDF or image), extracts
 its text, converts it to structured JSON via an LLM, validates the result,
