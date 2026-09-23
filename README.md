@@ -37,6 +37,7 @@ cp .env.example .env
 
 ```bash
 uvicorn api.main:app --reload
+python cli.py
 ```
 
 API docs (Swagger UI) at http://localhost:8000/docs
