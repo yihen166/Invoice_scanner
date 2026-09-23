@@ -10,13 +10,13 @@ and produces a short summary.
 POST /documents
    │
    ▼
-extract_text     — native PDF text (PyMuPDF) or Gemini vision for scans/images
+extract_text     — native PDF text using Gemini vision for scans/images
    │
    ▼
-llm_extract       — Gemini converts text → structured JSON (schema-validated via Pydantic)
+llm_extract       — Gemini LLM converts text → structured JSON (schema-validated via Pydantic)
    │
    ▼
-validate_invoice  — pure-code checks: missing fields, currency format, dates, totals
+validate_invoice  — pure-code checks: missing fields, currency format, dates, totals,AI-Frauds
    │
    ▼
 summarize         — Gemini writes a short human-readable report
